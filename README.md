@@ -42,9 +42,6 @@ Jane Smith	2025-04-21	09:00 AM
 4. Run the Application
 To start the attendance system, run:
 
-bash
-Copy
-Edit
 python attendance_system.py
 The application will detect faces or read RFID cards, and it will record the name along with the current time in the Excel file.
 
@@ -67,3 +64,5 @@ Facial Recognition/RFID Detection: The system detects the face or RFID card when
 Attendance Logging: Once a match is detected, the system logs the person's name, the current date, and the time in the Excel file (attendees.xlsx).
 
 Excel File Update: The data is saved in real-time, allowing for easy export or analysis of attendance data.
+
+License: This project is licensed under the MIT License. See the LICENSE file for more details.
